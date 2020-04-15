@@ -1,0 +1,146 @@
+set_global_assignment -entity "stopwatch" -library "stopwatch" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "stopwatch" -library "stopwatch" -name IP_TOOL_VERSION "13.0sp1"
+set_global_assignment -entity "stopwatch" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "stopwatch" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../stopwatch.sopcinfo"]
+set_instance_assignment -entity "stopwatch" -library "stopwatch" -name SLD_INFO "QSYS_NAME stopwatch HAS_SOPCINFO 1 GENERATION_ID 1571601221"
+set_global_assignment -library "stopwatch" -name MISC_FILE [file join $::quartus(qip_path) "../../stopwatch.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "stopwatch" -name MISC_FILE [file join $::quartus(qip_path) "../../stopwatch.qsys"]
+
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_sdram_ctrl_s1_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_sdram_ctrl_s1_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_sdram_ctrl_s1_translator_avalon_universal_slave_0_agent.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_width_adapter.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_width_adapter_001.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_cpu_instruction_master_translator.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_cpu_data_master_translator.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_cpu_jtag_debug_module_translator.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_sdram_ctrl_s1_translator.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_jtag_uart_avalon_jtag_slave_translator.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_system_id_control_slave_translator.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_timer_s1_translator.vhd"]
+set_global_assignment -library "stopwatch" -name VHDL_FILE [file join $::quartus(qip_path) "stopwatch_ledg_avalon_parallel_port_slave_translator.vhd"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_irq_mapper.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_width_adapter.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_address_alignment.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_rsp_xbar_mux_001.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_rsp_xbar_mux.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_rsp_xbar_demux_002.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_cmd_xbar_mux.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_cmd_xbar_demux_001.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_cmd_xbar_demux.sv"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "stopwatch" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_adapter.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_id_router_002.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_id_router_001.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_id_router.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_addr_router_001.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_addr_router.sv"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "stopwatch" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_HEX.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_SW.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_BD.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_LEDR.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_LEDG.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_TIMER.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_SYSTEM_ID.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_JTAG_UART.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_SDRAM_CTRL.v"]
+set_global_assignment -library "stopwatch" -name SDC_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU.sdc"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_jtag_debug_module_sysclk.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_jtag_debug_module_tck.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_jtag_debug_module_wrapper.v"]
+set_global_assignment -library "stopwatch" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_ociram_default_contents.mif"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_oci_test_bench.v"]
+set_global_assignment -library "stopwatch" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_rf_ram_a.mif"]
+set_global_assignment -library "stopwatch" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_rf_ram_b.mif"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_CPU_test_bench.v"]
+set_global_assignment -library "stopwatch" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/stopwatch_PLL.v"]
+
+set_global_assignment -entity "stopwatch_irq_mapper" -library "stopwatch" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "stopwatch_irq_mapper" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_irq_mapper" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_width_adapter"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_rsp_xbar_mux_001" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "stopwatch_rsp_xbar_mux_001" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_rsp_xbar_mux_001" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_rsp_xbar_mux" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "stopwatch_rsp_xbar_mux" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_rsp_xbar_mux" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_rsp_xbar_demux_002" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "stopwatch_rsp_xbar_demux_002" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_rsp_xbar_demux_002" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_cmd_xbar_mux" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "stopwatch_cmd_xbar_mux" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_cmd_xbar_mux" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_cmd_xbar_demux_001" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "stopwatch_cmd_xbar_demux_001" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_cmd_xbar_demux_001" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_cmd_xbar_demux" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "stopwatch_cmd_xbar_demux" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_cmd_xbar_demux" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_reset_controller" -library "stopwatch" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_reset_controller" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_burst_adapter"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_id_router_002" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "stopwatch_id_router_002" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_id_router_002" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_id_router_001" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "stopwatch_id_router_001" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_id_router_001" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_id_router" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "stopwatch_id_router" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_id_router" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_addr_router_001" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "stopwatch_addr_router_001" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_addr_router_001" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_addr_router" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "stopwatch_addr_router" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_addr_router" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "stopwatch" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_slave_agent"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_agent" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_master_agent"
+set_global_assignment -entity "altera_merlin_master_agent" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_agent" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "stopwatch" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_translator" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_TIMER" -library "stopwatch" -name IP_TOOL_NAME "altera_avalon_timer"
+set_global_assignment -entity "stopwatch_TIMER" -library "stopwatch" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "stopwatch_TIMER" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_SYSTEM_ID" -library "stopwatch" -name IP_TOOL_NAME "altera_avalon_sysid_qsys"
+set_global_assignment -entity "stopwatch_SYSTEM_ID" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_SYSTEM_ID" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_JTAG_UART" -library "stopwatch" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "stopwatch_JTAG_UART" -library "stopwatch" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "stopwatch_JTAG_UART" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_SDRAM_CTRL" -library "stopwatch" -name IP_TOOL_NAME "altera_avalon_new_sdram_controller"
+set_global_assignment -entity "stopwatch_SDRAM_CTRL" -library "stopwatch" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "stopwatch_SDRAM_CTRL" -library "stopwatch" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "stopwatch_CPU" -library "stopwatch" -name IP_TOOL_NAME "altera_nios2_qsys"
+set_global_assignment -entity "stopwatch_CPU" -library "stopwatch" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "stopwatch_CPU" -library "stopwatch" -name IP_TOOL_ENV "Qsys"

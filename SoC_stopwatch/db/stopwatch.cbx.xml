@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="stopwatch">
+		<CBX_INST_ENTRY INSTANCE_NAME="|montre_sys|stopwatch:u0|stopwatch_CPU:cpu|stopwatch_CPU_nios2_oci:the_stopwatch_CPU_nios2_oci|stopwatch_CPU_nios2_ocimem:the_stopwatch_CPU_nios2_ocimem|stopwatch_CPU_ociram_sp_ram_module:stopwatch_CPU_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_bl71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|montre_sys|stopwatch:u0|stopwatch_CPU:cpu|stopwatch_CPU_register_bank_a_module:stopwatch_CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_78g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|montre_sys|stopwatch:u0|stopwatch_CPU:cpu|stopwatch_CPU_register_bank_b_module:stopwatch_CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_88g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|montre_sys|stopwatch:u0|stopwatch_JTAG_UART:jtag_uart|stopwatch_JTAG_UART_scfifo_w:the_stopwatch_JTAG_UART_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|montre_sys|stopwatch:u0|stopwatch_JTAG_UART:jtag_uart|stopwatch_JTAG_UART_scfifo_r:the_stopwatch_JTAG_UART_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

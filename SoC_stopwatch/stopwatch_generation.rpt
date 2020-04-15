@@ -1,0 +1,152 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory="D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/" --output-directory="D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch/" --report-file="bsf:D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch.bsf" --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file="D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch.qsys"
+Progress: Loading SoC_TPs/stopwatch.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding PLL [altera_up_clocks 13.0]
+Progress: Parameterizing module PLL
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding SDRAM_CTRL [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM_CTRL
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding SYSTEM_ID [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module SYSTEM_ID
+Progress: Adding TIMER [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module TIMER
+Progress: Adding LEDG [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDG
+Progress: Adding LEDR [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDR
+Progress: Adding BD [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module BD
+Progress: Adding SW [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module SW
+Progress: Adding HEX [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: stopwatch.SYSTEM_ID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: stopwatch.SYSTEM_ID: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory="D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/" --output-directory="D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch/synthesis/" --file-set=QUARTUS_SYNTH --report-file="sopcinfo:D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch.sopcinfo" --report-file="html:D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch.html" --report-file="qip:D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch/synthesis/stopwatch.qip" --report-file="cmp:D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch.cmp" --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C20F484C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file="D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch.qsys" --language=VHDL
+Progress: Loading SoC_TPs/stopwatch.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding PLL [altera_up_clocks 13.0]
+Progress: Parameterizing module PLL
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding SDRAM_CTRL [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM_CTRL
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding SYSTEM_ID [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module SYSTEM_ID
+Progress: Adding TIMER [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module TIMER
+Progress: Adding LEDG [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDG
+Progress: Adding LEDR [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module LEDR
+Progress: Adding BD [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module BD
+Progress: Adding SW [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module SW
+Progress: Adding HEX [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: stopwatch.SYSTEM_ID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: stopwatch.SYSTEM_ID: Time stamp will be automatically updated when this component is generated.
+Info: stopwatch: Generating stopwatch "stopwatch" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 12 modules, 37 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 24 modules, 73 connections
+Info: merlin_domain_transform: After transform: 48 modules, 197 connections
+Info: merlin_router_transform: After transform: 60 modules, 233 connections
+Info: merlin_burst_transform: After transform: 61 modules, 236 connections
+Info: reset_adaptation_transform: After transform: 62 modules, 238 connections
+Info: merlin_network_to_switch_transform: After transform: 85 modules, 288 connections
+Info: merlin_width_transform: After transform: 87 modules, 294 connections
+Info: merlin_mm_transform: After transform: 87 modules, 294 connections
+Info: merlin_interrupt_mapper_transform: After transform: 88 modules, 297 connections
+Info: PLL: Starting Generation of Required Clocks for DE-Series Boards
+Info: PLL: "stopwatch" instantiated altera_up_clocks "PLL"
+Info: CPU: Starting RTL generation for module 'stopwatch_CPU'
+Info: CPU:   Generation command is [exec {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe} -I {D:/program files (d)/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/europa} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2} -- {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl} --name=stopwatch_CPU --dir=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0002_CPU_gen/ {--quartus_dir=D:/program files (d)/altera/13.0sp1/quartus} --verilog --config=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0002_CPU_gen//stopwatch_CPU_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: CPU: # 2019.10.20 20:52:44 (*) Starting Nios II generation
+Info: CPU: # 2019.10.20 20:52:44 (*)   Checking for plaintext license.
+Info: CPU: # 2019.10.20 20:52:46 (*)   Couldn't query license setup in Quartus directory D:/program files (d)/altera/13.0sp1/quartus
+Info: CPU: # 2019.10.20 20:52:46 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2019.10.20 20:52:46 (*)   LM_LICENSE_FILE environment variable is empty
+Info: CPU: # 2019.10.20 20:52:46 (*)   Plaintext license not found.
+Info: CPU: # 2019.10.20 20:52:46 (*)   No license required to generate encrypted Nios II/e.
+Info: CPU: # 2019.10.20 20:52:46 (*)   Elaborating CPU configuration settings
+Info: CPU: # 2019.10.20 20:52:46 (*)   Creating all objects for CPU
+Info: CPU: # 2019.10.20 20:52:47 (*)   Generating RTL from CPU objects
+Info: CPU: # 2019.10.20 20:52:47 (*)   Creating plain-text RTL
+Info: CPU: # 2019.10.20 20:52:48 (*) Done Nios II generation
+Info: CPU: Done RTL generation for module 'stopwatch_CPU'
+Info: CPU: "stopwatch" instantiated altera_nios2_qsys "CPU"
+Info: SDRAM_CTRL: Starting RTL generation for module 'stopwatch_SDRAM_CTRL'
+Info: SDRAM_CTRL:   Generation command is [exec {D:/program files (d)/altera/13.0sp1/quartus/bin/perl/bin/perl.exe} -I {D:/program files (d)/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/europa} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller} -- {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl} --name=stopwatch_SDRAM_CTRL --dir=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0003_SDRAM_CTRL_gen/ {--quartus_dir=D:/program files (d)/altera/13.0sp1/quartus} --verilog --config=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0003_SDRAM_CTRL_gen//stopwatch_SDRAM_CTRL_component_configuration.pl  --do_build_sim=0  ]
+Info: SDRAM_CTRL: Done RTL generation for module 'stopwatch_SDRAM_CTRL'
+Info: SDRAM_CTRL: "stopwatch" instantiated altera_avalon_new_sdram_controller "SDRAM_CTRL"
+Info: JTAG_UART: Starting RTL generation for module 'stopwatch_JTAG_UART'
+Info: JTAG_UART:   Generation command is [exec {D:/program files (d)/altera/13.0sp1/quartus/bin/perl/bin/perl.exe} -I {D:/program files (d)/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/europa} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart} -- {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl} --name=stopwatch_JTAG_UART --dir=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0004_JTAG_UART_gen/ {--quartus_dir=D:/program files (d)/altera/13.0sp1/quartus} --verilog --config=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0004_JTAG_UART_gen//stopwatch_JTAG_UART_component_configuration.pl  --do_build_sim=0  ]
+Info: JTAG_UART: Done RTL generation for module 'stopwatch_JTAG_UART'
+Info: JTAG_UART: "stopwatch" instantiated altera_avalon_jtag_uart "JTAG_UART"
+Info: SYSTEM_ID: "stopwatch" instantiated altera_avalon_sysid_qsys "SYSTEM_ID"
+Info: TIMER: Starting RTL generation for module 'stopwatch_TIMER'
+Info: TIMER:   Generation command is [exec {D:/program files (d)/altera/13.0sp1/quartus/bin/perl/bin/perl.exe} -I {D:/program files (d)/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/europa} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib} -I {D:/program files (d)/altera/13.0sp1/quartus/sopc_builder/bin} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common} -I {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer} -- {D:/program files (d)/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl} --name=stopwatch_TIMER --dir=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0006_TIMER_gen/ {--quartus_dir=D:/program files (d)/altera/13.0sp1/quartus} --verilog --config=C:/Users/BOUHMID/AppData/Local/Temp/alt8189_5193990501441634802.dir/0006_TIMER_gen//stopwatch_TIMER_component_configuration.pl  --do_build_sim=0  ]
+Info: TIMER: Done RTL generation for module 'stopwatch_TIMER'
+Info: TIMER: "stopwatch" instantiated altera_avalon_timer "TIMER"
+Info: LEDG: Starting Generation of Parallel Port
+Info: LEDG: "stopwatch" instantiated altera_up_avalon_parallel_port "LEDG"
+Info: LEDR: Starting Generation of Parallel Port
+Info: LEDR: "stopwatch" instantiated altera_up_avalon_parallel_port "LEDR"
+Info: BD: Starting Generation of Parallel Port
+Info: BD: "stopwatch" instantiated altera_up_avalon_parallel_port "BD"
+Info: SW: Starting Generation of Parallel Port
+Info: SW: "stopwatch" instantiated altera_up_avalon_parallel_port "SW"
+Info: HEX: Starting Generation of Parallel Port
+Info: HEX: "stopwatch" instantiated altera_up_avalon_parallel_port "HEX"
+Info: CPU_instruction_master_translator: "stopwatch" instantiated altera_merlin_master_translator "CPU_instruction_master_translator"
+Info: CPU_jtag_debug_module_translator: "stopwatch" instantiated altera_merlin_slave_translator "CPU_jtag_debug_module_translator"
+Info: CPU_instruction_master_translator_avalon_universal_master_0_agent: "stopwatch" instantiated altera_merlin_master_agent "CPU_instruction_master_translator_avalon_universal_master_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent: "stopwatch" instantiated altera_merlin_slave_agent "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "stopwatch" instantiated altera_avalon_sc_fifo "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "stopwatch" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "stopwatch" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "stopwatch" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "stopwatch" instantiated altera_merlin_router "id_router_001"
+Info: id_router_003: "stopwatch" instantiated altera_merlin_router "id_router_003"
+Info: burst_adapter: "stopwatch" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "stopwatch" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "stopwatch" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "stopwatch" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "stopwatch" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "stopwatch" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "stopwatch" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_mux: "stopwatch" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "stopwatch" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "stopwatch" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/INPT/INE2/S1/1ère partie/System on chip SoC/SoC_TPs/stopwatch/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "stopwatch" instantiated altera_irq_mapper "irq_mapper"
+Info: stopwatch: Done stopwatch" with 33 modules, 144 files, 3091273 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
